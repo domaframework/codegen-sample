@@ -11,6 +11,11 @@ Clone this repository:
 $ git clone https://github.com/domaframework/codegen-sample.git
 ```
 
+Change directory:
+```
+$ cd codegen-sample
+```
+
 Prepare a sample Database (If you use your Database, skip this step):
 ```
 $ ./gradlew createDb
@@ -22,7 +27,10 @@ For example, generate all Java and SQL files:
 $ ./gradlew domaCodeGenDevAll
 ```
 
-Build your application with generated files:
+Now the files are generated.  
+Check under the src directory.
+
+Finally, build your application with the generated files:
 ```
 $ ./gradlew build
 ```
